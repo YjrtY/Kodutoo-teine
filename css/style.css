@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    background-color: cornsilk;
+}
+
+.Heading{
+    text-align: center;
+    color: chocolate;
+    font-family: "Mulish", sans-serif;
+    animation: Heading;
+    animation-duration: 3s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+@keyframes Heading {
+    0% {top: -250px;}
+    100% {top: 0px;}
+}
+
+.Koostisosad{
+    border: 1px solid black;
+    width: 50%;
+    margin: 2rem auto;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    color: rgb(165, 60, 60);
+    animation: Koostisosad;
+    animation-duration: 3s;
+    position: relative;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes Koostisosad {
+    0% {left: -1000px;}
+    85% {left: 50px;}
+    100% {left: 0;}
+ }
+
+.Pilt{
+    text-align: center;
+    margin-bottom: 30px;
+    animation: Pilt;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes Pilt {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.Pilt img{
+    display: block;
+    margin: 0 auto;
+}
+
+.Koostisosade-Tabel{
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.Juhend{
+    border: 1px solid black;
+    width: 57%;
+    margin: 0 auto;
+    color: rgb(53, 18, 190);
+    animation: Juhend;
+    animation-duration: 3s;
+    position: relative;
+}
+
+@keyframes Juhend {
+    0% {right: -1000px;}
+    85% {right: 50px;}
+    100% {right: 0;}
+}
+
+
+.Juhend ol{
+    border: 1px solid blue;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.Lingid{
+    padding-left: 28px;
+    color: rgb(201, 54, 99);
+}
+
+.footer{
+    color: rgb(22, 106, 202);
+}
